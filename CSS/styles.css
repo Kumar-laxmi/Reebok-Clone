@@ -23,6 +23,16 @@
     src: url(../FONT/AdineuePRO-regular/adineuePRO-Regular.woff2) format("opentype");
 }
 
+@font-face {
+    font-family: NeuPlakWide-Regular;
+    src: url(../FONT/NeuPlakWide-Regular/NeuePlakWideRegular.woff) format("opentype");
+}
+
+@font-face {
+    font-family: DINPro-Cond;
+    src: url(../FONT/DINPro-Cond/DINWebPro-CondMedium.woff) format("opentype");
+}
+
 body, html {
     height: 100%;
 }
@@ -181,3 +191,22 @@ a.btn-light:hover {
     text-decoration: none;
 }
 
+.trending-title {
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: NeuPlakWide-Regular;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.explore-title {
+    color: #000000;
+    width: 100%;
+    margin: 20px 0px 20px 0px !important;
+    font-size: 20px;
+    font-family: DINPro-Cond;
+    font-weight: 500;
+    line-height: 18px
+}
